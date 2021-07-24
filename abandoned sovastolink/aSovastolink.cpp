@@ -179,5 +179,5 @@ int main()
 }
     //loading bar code by TECH SCREENER
     //Original code written by codefoxx
-    //Edited by Demetris Michael
-    //Final code written by Demetris Michael
+    //Edited by int main(masters)
+    //Final code written by int main(masters)
