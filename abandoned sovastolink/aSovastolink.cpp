@@ -17,6 +17,7 @@ int main()
     double Proplems = 0.0;
     double Reviews = 0.0;
     double AllReviews = 0.0;
+    double credits = 0.0;
     bool isTrue = true;
 
     system("color 2");
@@ -53,16 +54,15 @@ int main()
                  << "1. Logs\n"
                  << "2. Reports\n"
                  << "3. problems\n"
-                 << "4. AllReviews\n"
-                 << "5. Exit\n";
+                 << "4. Credits\n"
+                 << "5. AllReviews\n"
+                 << "6. Exit\n";
             cout << "Choose an option:\n";
             cin >> entry;
 
             //try to get the invalid input feature to work
-            //attempt to get this to work will be tried from the 24/7/21-25/7/21 
-            /*if (entry = string);
-            cout << "Your input is invalid try again";*/
-
+            //attempt to get this to work will be tried from the 24/7/21-25/7/21
+    
             switch(entry)
             {
                 case 1:
@@ -156,12 +156,30 @@ int main()
 
                     break;
                 case 4:
-                    system ("CLS");
-                    cout << "Current Views: " << AllReviews << endl; 
-                    if (AllReviews = 0)
-                    cout << "0";
+                    system("CLS");
+                    cout << "\n\n\n                                                CREDITS:                        ";
+                    cout << "\n\n\n                                                                       ";
+                    cout << "\n\n\n                                            Lead Programmer:                        ";
+                    cout << "\n\n\n                                                                       ";
+                    cout << "\n\n\n                                            int main(masters)                        ";
+                    cout << "\n\n\n                                                                        ";
+                    cout << "\n\n\n                                                 Audio:                        ";
+                    cout << "\n\n\n                                                                       ";
+                    cout << "\n\n\n                                              My Friend XD                        ";
+                    cout << "View amount:\n";
+
+                    cin >> Reviews ;
+                    AllReviews = AllReviews + Reviews;
+                    system("CLS");
                     break;
                 case 5:
+                    system ("CLS");
+                    cout << "Current Views: " << AllReviews << endl;
+                    break;
+                
+
+                    break;
+                case 6:
                     system ("CLS");
                     cout << "Thank you for using the Sovastolink have a nice day!\n";
                     isTrue = false;
@@ -179,5 +197,5 @@ int main()
 }
     //loading bar code by TECH SCREENER
     //Original code written by codefoxx
-    //Edited by int main(masters)
-    //Final code written by int main(masters)
+    //Edited by Demetris Michael
+    //Final code written by Demetris Michael
