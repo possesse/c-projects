@@ -1,6 +1,15 @@
 # c-projects
+What to do to run the program:
+  if you only download the .exe program there is a chance where the windows defender might go off and not open the program, but don't worry because there is nothing wrong with my 
+program you will just have to download the compiler ming-w64 which is the compiler to make the program run so you will have to download ming-w64 set it 
+up as is shown in the video and then you will be able to run the program and you will have no proplemo. 
+Also big thanks to Tech with Tim because without him i wouldn't be this far in my cpp knowledge without him.
 
-if you only download the .exe program there is a chance where the windows defender might go off and not open the program, but don't worry because there is nothing wrong with my 
-program you will just have to run the code on your computer in a text editor.
+The video to make ming-w-64 work so your program can work:
+  So https://youtu.be/lPd13fsU-CQ this is the link to the video from Tech with Tim showing you how to set up everything for cpp but if you are just a normal
+person not looking for setting your computer up for writing cpp code then skip to the Windows setup section of the video, But, Note:
+When you are watching the windows setup part of the video you have to watch the hole windows setup section of the video
+otherwise if you don't do the steps correctly with ming-w-64 then the program will still not work.
+So i hope you have done all the steps correct and i hope you love the program
 
 project made by me int main(masters) :)
