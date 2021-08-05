@@ -2,8 +2,9 @@
 #include <string>
 #include <cstdlib>
 #include <conio.h> 
-#include <windows.h>
+#include <Windows.h>
 #include <stdio.h>
+
 
 
 using namespace std;
@@ -12,17 +13,19 @@ int main()
 {
     system ("CLS");
     int entry;
+    int Reivews = 0;
     double Logs = 0.0;
     double Reports = 0.0;
     double Proplems = 0.0;
     double Reviews = 0.0;
     double AllReviews = 0.0;
     double credits = 0.0;
+    double Exit = 0.0;
     bool isTrue = true;
 
     system("color 2");
 
-        cout << "\n\n\n                                               SOVASTOLINK                        ";
+        cout << "\n\n\n                                               \x53\x4F\x56\x41\x53\x54\x4F\x4C\x49\x4E\x4B                       ";
     cout << "\n\n\n\n\n\n\n\n               	Loading ";
     char x=219;
 
@@ -68,56 +71,59 @@ int main()
                 case 1:
                     system ("CLS");
                 
-                    cout << "______________________________________________________________________" << endl;
-                    cout << "| Riply                                              20/4/21         |" << endl;                                                      
-                    cout << "|                                                                    |" << endl;
-                    cout << "|          Hello this is Riply we are having a lot of proplems       |" << endl;
-                    cout << "|      on the ship we need help Taylor is hurt she got hurt          |" << endl;
-                    cout << "|      from the space walk from debri. Come to coms and bring        |" << endl;
-                    cout << "|      meds we need them ergently.                                   |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|____________________________________________________________________|" << endl;
-                    cout << "| Note: SPACE RUNNING LOW PLS UPGRADE TERMINAL FOR MORE SPACE        |" << endl;
-                    cout << "|____________________________________________________________________|" << endl;                          
-                    cout << "View amount:\n";        
-                        cin >> Reviews ;
-                        AllReviews = AllReviews + Reviews;
-                        system ("CLS");
-                    
+                    cout << "\xC9\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xBB" << endl;
+                    cout << "\xBA Riply                                              20/4/21         \xBA" << endl;                                                      
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA         Hello this is Riply we are having a lot of proplems        \xBA" << endl;
+                    cout << "\xBA      on the ship we need help Taylor is hurt she got hurt          \xBA" << endl;
+                    cout << "\xBA      from the space walk from debri. Come to coms and bring        \xBA" << endl;
+                    cout << "\xBA      meds we need them ergently.                                   \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xCC\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xB9" << endl;
+                    cout << "\xCC\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xB9" << endl;
+                    cout << "\xBA Note: SPACE RUNNING LOW PLS UPGRADE TERMINAL FOR MORE SPACE        \xBA" << endl;
+                    cout << "\xC8\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xBC" << endl;                          
+                    cout << " View amount:\n";
+                    cin >> Reviews ;
+                    AllReviews = AllReviews + Reviews;
+                    system ("CLS");
+                        
+
+
+
                      break;
                 case 2:
                     system ("CLS");
-                    cout << "______________________________________________________________________" << endl;
-                    cout << "| Riply                                          25/4/21             |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|         This is Riply reporting now and there is something         |" << endl;
-                    cout << "|      in this ship it's like an alien it dangerous and              |" << endl;
-                    cout << "|      eats humans we need to get off this ship ergently.            |" << endl;
-                    cout << "|      contact the other ships to help us get off this ship.         |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|____________________________________________________________________|" << endl;
-                    cout << "|____________________________________________________________________|" << endl;
-                    cout << "| Note: ALL VENTS OPENED                                             |" << endl;
-                    cout << "|____________________________________________________________________|" << endl;
+                    cout << "\xC9\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xBB" << endl;
+                    cout << "\xBA Riply                                          25/4/21             \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA         This is Riply reporting now and there is something         \xBA" << endl;
+                    cout << "\xBA      in this ship it's like an alien it dangerous and              \xBA" << endl;
+                    cout << "\xBA      eats humans we need to get off this ship ergently.            \xBA" << endl;
+                    cout << "\xBA      contact the other ships to help us get off this ship.         \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xCC\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xB9" << endl;
+                    cout << "\xCC\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xB9" << endl;
+                    cout << "\xBA Note: ALL VENTS OPENED                                             \xBA" << endl;
+                    cout << "\xC8\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xBC" << endl;
                     cout << " View amount:\n";
                     cin >> Reviews ;
                     AllReviews = AllReviews + Reviews;
@@ -127,27 +133,27 @@ int main()
                     break;
                 case 3:
                     system ("ClS");
-                    cout << "______________________________________________________________________" << endl;
-                    cout << "| Riply                                          30/4/21             |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|      We are low on food and water we need suplies pls help any     |" << endl;
-                    cout << "|   ship that is range to connect with us pls send us food and water.|" << endl;
-                    cout << "|   We are also running low on medical suplies.                      |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|                                                                    |" << endl;
-                    cout << "|____________________________________________________________________|" << endl;
-                    cout << "|____________________________________________________________________|" << endl;
-                    cout << "|Note: ERROR ALL DOORS LOCKED                                        |" << endl;
-                    cout << "|____________________________________________________________________|" << endl;
+                    cout << "\xC9\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xBB" << endl;
+                    cout << "\xBA Riply                                          30/4/21             \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA      We are low on food and water we need suplies pls help any     \xBA" << endl;
+                    cout << "\xBA   ship that is range to connect with us pls send us food and water.\xBA" << endl;
+                    cout << "\xBA   We are also running low on medical suplies.                      \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xBA                                                                    \xBA" << endl;
+                    cout << "\xCC\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xB9" << endl;
+                    cout << "\xCC\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xB9" << endl;
+                    cout << "\xBANote: ERROR ALL DOORS LOCKED                                        \xBA" << endl;
+                    cout << "\xC8\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xBC" << endl;
                     cout << "View amount:\n";
                     
                     cin >> Reviews ;
@@ -167,11 +173,12 @@ int main()
                     cout << "\n\n\n                                                                       ";
                     cout << "\n\n\n                                              My Friend XD                        ";
                     cout << "View amount:\n";
-
+                    
                     cin >> Reviews ;
                     AllReviews = AllReviews + Reviews;
-                    system("CLS");
+                    system ("CLS");
                     break;
+                    
                 case 5:
                     system ("CLS");
                     cout << "Current Views: " << AllReviews << endl;
